@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+P.blurb-text {
+  top: 50%;
+  left: 50%;
+  margin-top: 0px;
+  width: 700px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 21px;
+  text-align: left;
+  white-space: pre-line;
+
+  color: rgb(0, 0, 0);
+}

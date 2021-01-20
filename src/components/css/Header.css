@@ -1,0 +1,33 @@
+.header-box {
+  background-color: rgb(58, 69, 71);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  display: block;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -15px;
+}
+
+.logotext {
+  height: 55px;
+  width: auto;
+  display: block;
+  margin: auto;
+  margin-top: auto;
+}
+
+.in {
+  height: 40;
+  width: 40;
+  margin-right: 15px;
+}
