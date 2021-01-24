@@ -3,7 +3,7 @@ import { motion, useCycle } from "framer-motion";
 import "./css/TeamMember.css";
 // import { SocialIcon } from "react-social-icons";
 
-import overlay from "../images/overlay.png";
+import overlay from "../images/overlay.jpeg";
 
 const TeamMember = ({ photo, name, position, linkedIn }) => {
   const variants = {

@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   animation: breath 10s ease-in-out alternate infinite;
-  background: url("/src/images/spi-splash-background2.png");
+  background: url("/src/images/spi-splash-background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

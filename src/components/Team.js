@@ -9,12 +9,12 @@ import oliver from "../images/oliver.jpeg";
 import charlie from "../images/charlie.jpg";
 import eli from "../images/eli.jpeg";
 import hamish from "../images/hamish.jpeg";
-import jolene from "../images/jolene.png";
-import kostas from "../images/kostas.png";
+import jolene from "../images/jolene.jpeg";
+import kostas from "../images/kostas.jpeg";
 import nathan from "../images/nathan.jpeg";
 import shahmeer from "../images/shahmeer.jpg";
-import shayne from "../images/shayne.png";
-import ying from "../images/ying.png";
+import shayne from "../images/shayne.jpg";
+import ying from "../images/ying.jpg";
 
 const Team = () => {
   return (
