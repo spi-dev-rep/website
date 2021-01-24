@@ -1,11 +1,11 @@
 import React from "react";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
 import "./css/Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <SocialIcon
+      {/* <SocialIcon
         url="https://www.linkedin.com/company/studentprojectinitiative/"
         bgColor="white"
         className="foot-social"
@@ -15,7 +15,7 @@ const Footer = () => {
         bgColor="white"
         network="mailto"
         className="foot-social"
-      />
+      /> */}
       <p>Copyright SPI 2021</p>
     </div>
   );
