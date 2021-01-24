@@ -1,0 +1,31 @@
+.footer-container {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  bottom: 0;
+  background-color: #223051;
+  /* box-shadow: 13px 13px 20px #cbced1, -15px -15px 20px #ffffff; */
+  text-align: center;
+}
+
+.foot-social {
+  height: auto;
+  width: auto;
+  display: block;
+  position: relative;
+  margin: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: scale(0.8);
+}
+
+.footer-container p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 12px;
+  margin: 0;
+
+  position: relative;
+  bottom: 10px;
+}

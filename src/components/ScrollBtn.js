@@ -9,7 +9,7 @@ const ScrollBtn = () => {
     <div>
       <section id="arrow" className="text">
         <Link to="about">
-          <span></span>scroll
+          <span></span>click
         </Link>
       </section>
     </div>

@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  display: block;
+  height: 400%;
+  width: 200%;
+  align-items: center;
+  text-align: center;
+}
+
+.photo {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%) scale(0.95);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+  /* clip-path: url("#svgPath"); */
+}
+
+.overlay-container {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%) scale(0.96);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  filter: opacity(85%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.overlay-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.overlay-text h3 {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.overlay-text h4 {
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.social {
+  position: absolute;
+  display: block;
+  width: 10%;
+  margin: auto;
+  bottom: -28%;
+  left: auto;
+  align-self: center;
+  transform: scale(0.6);
+}
