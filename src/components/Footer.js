@@ -10,7 +10,7 @@ const Footer = () => {
       <a href="https://www.linkedin.com/company/studentprojectinitiative/">
         <img src={linkedin} className="foot-social" alt="" />
       </a>
-      <a href="https://www.linkedin.com/company/studentprojectinitiative/">
+      <a href="mailto:contact@spi.dev">
         <img src={email} className="foot-social" alt="" />
       </a>
       <p>Copyright SPI 2021</p>
