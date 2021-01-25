@@ -9,7 +9,7 @@ const App = () => {
   const location = useLocation();
 
   return (
-    <AnimatePresence exitBeforeEnter>
+    <AnimatePresence exitBeforeEnter className="app-style">
       <Switch location={location} key={location.key}>
         <Route path="/" exact component={Splash} />
         <Route path="/about" exact component={About} />

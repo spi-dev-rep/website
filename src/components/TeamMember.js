@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useCycle } from "framer-motion";
 import "./css/TeamMember.css";
-// import { SocialIcon } from "react-social-icons";
+import linkedin from "../images/in.png";
 
 import overlay from "../images/overlay.jpeg";
 
@@ -30,7 +30,9 @@ const TeamMember = ({ photo, name, position, linkedIn }) => {
         <div className="overlay-text">
           <h3>{name}</h3>
           <h4>{position}</h4>
-          {/* <SocialIcon url={linkedIn} className="social" bgColor="#FFFFFF" /> */}
+          <a href={linkedIn}>
+            <img src={linkedin} className="social" alt="" />
+          </a>
         </div>
       </motion.div>
     </div>

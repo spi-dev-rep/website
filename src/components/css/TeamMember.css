@@ -79,10 +79,8 @@
 .social {
   position: absolute;
   display: block;
-  width: 10%;
+  width: 12%;
   margin: auto;
-  bottom: -28%;
-  left: auto;
-  align-self: center;
-  transform: scale(0.6);
+  left: 44.5%;
+  bottom: 15%;
 }

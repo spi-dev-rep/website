@@ -11,12 +11,13 @@
 .foot-social {
   height: auto;
   width: auto;
-  display: block;
+  display: inline-block;
   position: relative;
-  margin: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  transform: scale(0.8);
+  top: 0;
+  margin: -15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform: scale(0.4);
 }
 
 .footer-container p {
