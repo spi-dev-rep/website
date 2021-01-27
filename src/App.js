@@ -3,13 +3,12 @@ import { Route, Switch, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Splash from "./components/Splash";
 import About from "./components/About";
-import "./App.css";
 
 const App = () => {
   const location = useLocation();
 
   return (
-    <AnimatePresence exitBeforeEnter className="app-style">
+    <AnimatePresence exitBeforeEnter>
       <Switch location={location} key={location.key}>
         <Route path="/" exact component={Splash} />
         <Route path="/about" exact component={About} />

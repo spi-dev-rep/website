@@ -31,6 +31,7 @@
   right: 0;
   transform: translate(-50%, -50%) scale(0.96);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .overlay {
@@ -43,11 +44,13 @@
   bottom: 0;
   right: 0;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .overlay-text {
   position: absolute;
   display: flex;
+  -webkit-display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -70,9 +73,10 @@
 .overlay-text h4 {
   position: absolute;
   text-align: center;
-  top: 48%;
+  top: 47%;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
+  font-size: 15px;
   color: white;
 }
 
@@ -81,6 +85,32 @@
   display: block;
   width: 12%;
   margin: auto;
-  left: 44.5%;
+  left: 44%;
   bottom: 15%;
+}
+
+@media (max-width: 1100px) {
+  .overlay-text h3 {
+    top: auto;
+    bottom: 35%;
+    font-size: 17px;
+  }
+
+  .overlay-text h4 {
+    top: 50%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .overlay-text h3 {
+    top: auto;
+    bottom: 37%;
+    font-size: 17px;
+  }
+
+  .overlay-text h4 {
+    top: 45%;
+    font-size: 13px;
+  }
 }

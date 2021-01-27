@@ -66,3 +66,19 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 700px) {
+  .text a {
+    margin-left: -15px;
+    bottom: -20px;
+    font-size: 15px;
+  }
+  #arrow a span {
+    top: 10px;
+    width: 18px;
+    height: 18px;
+    margin-left: -10px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+}
