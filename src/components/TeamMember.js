@@ -1,31 +1,14 @@
 import React from "react";
-import { motion, useCycle } from "framer-motion";
 import "./css/TeamMember.css";
 import linkedin from "../images/in.png";
 
 import overlay from "../images/overlay.jpeg";
 
 const TeamMember = ({ photo, name, position, linkedIn }) => {
-  const variants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 100 },
-  };
-
-  const [animate, tapCycle] = useCycle({ opacity: 0 }, { opacity: 100 });
-
   return (
     <div className="container">
       <img src={photo} alt="" className="photo" />
-
-      <motion.div
-        initial="hidden"
-        whileHover="visible"
-        variants={variants}
-        animate={animate}
-        onTap={() => tapCycle()}
-        transition={{ ease: "easeIn", duration: 0 }}
-        className="overlay-container"
-      >
+      <div className="overlay-container">
         <img src={overlay} className="overlay" alt="" />
         <div className="overlay-text">
           <h3>{name}</h3>
@@ -34,7 +17,7 @@ const TeamMember = ({ photo, name, position, linkedIn }) => {
             <img src={linkedin} className="social" alt="" />
           </a>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

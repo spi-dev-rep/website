@@ -17,8 +17,7 @@
   right: 0;
   transform: translate(-50%, -50%) scale(0.95);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-
-  /* clip-path: url("#svgPath"); */
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .overlay-container {
@@ -34,17 +33,27 @@
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
+.overlay-container:hover .overlay {
+  filter: opacity(80%);
+}
+
+.overlay-container:hover .overlay-text {
+  filter: opacity(100%);
+}
+
 .overlay {
   position: absolute;
   height: 100%;
   width: auto;
-  filter: opacity(85%);
+  filter: opacity(0%);
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  z-index: 10;
+  transition: 0.25s ease;
 }
 
 .overlay-text {
@@ -59,6 +68,11 @@
   left: 0;
   bottom: 0;
   right: 0;
+  filter: opacity(0%);
+  z-index: 11;
+  transition: 0.25s ease;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .overlay-text h3 {

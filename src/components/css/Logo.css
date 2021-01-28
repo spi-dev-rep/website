@@ -36,3 +36,13 @@
     width: 270px;
   }
 }
+
+@media (max-height: 600px) {
+  .logo-main {
+    width: 100px;
+  }
+
+  .logo-text {
+    width: 170px;
+  }
+}
